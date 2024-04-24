@@ -315,7 +315,6 @@ const RenderPost = ({ post, redirect, preview }) => {
               const childStyle: CSSProperties = useWrapper
                 ? {
                     width: '100%',
-                    height: '100%',
                     border: 'none',
                     position: 'absolute',
                     top: 0,
@@ -323,7 +322,6 @@ const RenderPost = ({ post, redirect, preview }) => {
                 : {
                     width,
                     border: 'none',
-                    height: block_height,
                     display: 'block',
                     maxWidth: '100%',
                   }
