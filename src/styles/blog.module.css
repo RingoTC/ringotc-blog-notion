@@ -91,6 +91,7 @@
 .post :global(.asset-wrapper) {
   margin: 2rem auto;
   max-width: 100%;
+  aspect-ratio: 1 / 1;
   display: block;
 }
 
